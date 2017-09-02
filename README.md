@@ -7,6 +7,14 @@ Changes
 * Smaller edge-mounted switch
 * Swapped R<>B LEDs due to routing constraint.
 
+Images
+======
+
+![Render](/u2f-zero.png?raw=true "Render")
+![Top](/top.png?raw=true "Top")
+![Bottom](/bottom.png?raw=true "Bottom")
+
+
 Notes
 =====
 
