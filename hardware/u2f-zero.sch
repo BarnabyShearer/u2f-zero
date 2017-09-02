@@ -190,7 +190,7 @@ U 1 1 5685E9F9
 P 6500 5200
 F 0 "SW1" H 6650 5310 50  0000 C CNN
 F 1 "SW_PUSH" H 6500 5120 50  0000 C CNN
-F 2 "footprints:u2f-button" H 6500 5200 50  0001 C CNN
+F 2 "Buttons_Switches_SMD:SW_SPST_EVQP7C" H 6500 5200 50  0001 C CNN
 F 3 "http://www.digikey.com/product-detail/en/e-switch/TL3305AF260QG/EG5353CT-ND/5816198" H 6500 5200 50  0001 C CNN
 F 4 "E-Switch" H 6500 5200 60  0001 C CNN "MFG Name"
 F 5 "TL3305AF260QG" H 6500 5200 60  0001 C CNN "MFG Part Num"
@@ -308,19 +308,11 @@ Wire Wire Line
 Wire Wire Line
 	3100 4500 4800 4500
 Wire Wire Line
-	6600 4350 6250 4350
-Wire Wire Line
-	6250 4350 6250 4400
-Wire Wire Line
-	6250 4400 5950 4400
+	5950 4400 6450 4400
 Wire Wire Line
 	6600 4500 5950 4500
 Wire Wire Line
-	6600 4650 6250 4650
-Wire Wire Line
-	6250 4650 6250 4600
-Wire Wire Line
-	6250 4600 5950 4600
+	5950 4600 6350 4600
 Wire Wire Line
 	8100 4750 8100 4500
 Wire Wire Line
@@ -415,37 +407,12 @@ Text Label 7050 3400 3    60   ~ 0
 GND
 Wire Wire Line
 	4700 4700 4700 4600
-$Comp
-L u2f-fiducial F1
-U 1 1 571C39BB
-P 2600 5450
-F 0 "F1" H 2450 5650 60  0000 C CNN
-F 1 "u2f-fiducial" H 2950 5650 60  0000 C CNN
-F 2 "footprints:u2f-fiducial" H 2600 5450 60  0001 C CNN
-F 3 "" H 2600 5450 60  0000 C CNN
-	1    2600 5450
-	1    0    0    -1  
-$EndComp
-$Comp
-L u2f-fiducial F2
-U 1 1 571C3A1E
-P 3100 5600
-F 0 "F2" H 2950 5800 60  0000 C CNN
-F 1 "u2f-fiducial" H 3450 5800 60  0000 C CNN
-F 2 "footprints:u2f-fiducial" H 3100 5600 60  0001 C CNN
-F 3 "" H 3100 5600 60  0000 C CNN
-	1    3100 5600
-	1    0    0    -1  
-$EndComp
-$Comp
-L u2f-fiducial F3
-U 1 1 571C3A85
-P 3500 5750
-F 0 "F3" H 3350 5950 60  0000 C CNN
-F 1 "u2f-fiducial" H 3850 5950 60  0000 C CNN
-F 2 "footprints:u2f-fiducial" H 3500 5750 60  0001 C CNN
-F 3 "" H 3500 5750 60  0000 C CNN
-	1    3500 5750
-	1    0    0    -1  
-$EndComp
+Wire Wire Line
+	6450 4400 6450 4650
+Wire Wire Line
+	6450 4650 6600 4650
+Wire Wire Line
+	6350 4600 6350 4350
+Wire Wire Line
+	6350 4350 6600 4350
 $EndSCHEMATC
