@@ -31,7 +31,7 @@
 
 #include "app.h"
 
-#undef U2F_DISABLE
+//#undef U2F_DISABLE
 #ifndef U2F_DISABLE
 #include "bsp.h"
 #include "u2f.h"
@@ -47,11 +47,6 @@ static uint8_t* resbuf = (uint8_t*)&res;
 static uint8_t resseq = 0;
 static uint8_t serious = 0;
 
-
-void u2f_init()
-{
-
-}
 
 void u2f_response_writeback(uint8_t * buf, uint16_t len)
 {

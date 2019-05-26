@@ -23,7 +23,7 @@
  * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
  */
-#include <SI_EFM8UB1_Register_Enums.h>
+#include <SI_EFM8UB3_Register_Enums.h>
 #include <efm8_usb.h>
 #include <stdarg.h>
 #include <stdio.h>

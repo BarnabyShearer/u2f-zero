@@ -27,10 +27,9 @@
 #ifndef APP_H_
 #define APP_H_
 
-#include <SI_EFM8UB1_Register_Enums.h>
+#include <SI_EFM8UB3_Register_Enums.h>
 #include <stdarg.h>
 #include "u2f_hid.h"
-
 
 
 // application settings
@@ -38,16 +37,16 @@
 #define U2F_MASTER_KEY_SLOT			1
 #define U2F_TEMP_KEY_SLOT			2
 
-// Comment these out to fit firmware with a bootloader.
+// Comment these out to make smaller firmware
 #define U2F_SUPPORT_WINK
 #define U2F_SUPPORT_HID_LOCK
 #define U2F_SUPPORT_RNG_CUSTOM
 #define U2F_SUPPORT_SEED_CUSTOM
 
-// comment out this if using bootloader
-//#define U2F_USING_BOOTLOADER
+// comment out this if not using bootloader
+#define U2F_USING_BOOTLOADER
 
-// Uncomment this to make configuration firmware
+// Defined for building configuration firmware
 //#define ATECC_SETUP_DEVICE
 
 //#define U2F_PRINT

@@ -24,7 +24,7 @@
 
  */
 
-#include <SI_EFM8UB1_Register_Enums.h>
+#include <SI_EFM8UB3_Register_Enums.h>
 #include <stdint.h>
 #include "app.h"
 #include "i2c.h"

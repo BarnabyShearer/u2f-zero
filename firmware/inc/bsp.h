@@ -27,7 +27,7 @@
 #ifndef BSP_H_
 #define BSP_H_
 
-#include <SI_EFM8UB1_Register_Enums.h>
+#include <SI_EFM8UB3_Register_Enums.h>
 #include <efm8_usb.h>
 #include <stdint.h>
 #include "descriptors.h"

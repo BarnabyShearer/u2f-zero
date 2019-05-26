@@ -29,7 +29,7 @@
  * 		it will pass it up to the U2F HID layer, implemented in u2f_hid.c.
  *
  */
-#include <SI_EFM8UB1_Register_Enums.h>
+#include <SI_EFM8UB3_Register_Enums.h>
 
 #include "InitDevice.h"
 #include "app.h"

@@ -66,6 +66,8 @@ release/
 workers/
 *~
 *.DS_Store
+/firmware/build/
+/firmware/setup/
 
 # hardware
 *.gbr
